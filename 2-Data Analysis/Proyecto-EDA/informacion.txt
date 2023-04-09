@@ -1,0 +1,3 @@
+https://towardsdatascience.com/embed-interactive-plots-in-your-slides-with-plotly-fde92a5865a
+
+pagina integrar graficos interactivos en presentaciones
