@@ -166,6 +166,18 @@ group by EmployeeId;
 
 -- 10.	Quien es son los 3 grupos que más han vendido?
 
+SELECT AR.Name
+FROM artist AR
+LEFT JOIN album AL
+USING(artistID)
+LEFT JOIN Track
+using(albumID)
+LEFT JOIN invoiceline
+USING(trackId)
+
+;
+
+
 SELECT ar.name, SUM(i.unitPrice) AS suma
 FROM TRACK t
 LEFT JOIN invoiceline i
